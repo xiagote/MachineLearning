@@ -45,6 +45,9 @@ a) Binarize categorical/discrete features: For all categorical features, represe
 　7) Tree Model不太需要one-hot编码 
 
 　　对于决策树来说,one-hot的本质是增加树的深度 
+  
 　　tree-model 是在动态的过程中生成类似 One-Hot + Feature Crossing的机制
+  
 　　一个特征或者多个特征最终转成一个叶子节点作为编码, one-hot可以理解成三个独立事件.
+  
 　　决策树是没有特征大小的概念的,只有特征处于它分布的哪一部分的概念.
